@@ -1,0 +1,122 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title>myunipa</title>
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: #F5F5F5;
+      }
+      header{
+        background: #00BFFF;
+        padding: 30px;
+        overflow: hidden;
+      }
+      .lingkaran1{
+        float: left;
+        width: 50px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 100%;
+        
+      }
+      .box1{
+        float: right;
+        width: 1450px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 20px;
+      }
+      .box2{
+        float: right;
+        width: 400px;
+        height: 400px;
+        background: #A9A9A9;
+        border-radius: 20px;
+        margin-right: 60px;
+        margin-left: 60px;
+      }
+      .container{
+        margin : 50px auto;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+      }
+      .main{
+        flex: 0.5;
+        order: 2;
+      }
+      .sidebar{
+        flex: 1;
+        order: 3;
+      }
+      .sidebar1{
+        flex: 1;
+        order: 1;
+      }
+      .tombol1 {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 500px;
+        height: 40px;
+        padding: 5px 10px;
+        margin: 10px;
+        text-align: left;
+        font-size: 24px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+      }
+
+      .footer {
+        background: #1E90FF;
+        padding: 30px;
+        width: 1495px;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0px;
+      }
+      .menubar {
+        text-align: center;
+      }
+   
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="lingkaran1"></div>
+      <div class="box1"></div>
+  </header>
+  
+  <!---Content---->
+    
+    <div class="container">
+      <div class="main">
+        <div class="box2"></div>
+      </div>
+
+      <div class="sidebar">
+        <h2>Pilih Status Anda</h2>
+        <a href="#" class="tombol1">Mahasiswa</a>
+        <a href="#" class="tombol1">Program Studi</a>
+        <a href="#" class="tombol1">Dosen Pembimbing</a>
+        <a href="#" class="tombol1">Dosen Penguji</a>
+        <a href="#" class="tombol1">Penyangga</a>
+    </div>
+
+    <div class="footer">
+      <div class="menubar">
+          <button>Notification</button>
+          <button>Home</button>
+          <button>Profile</button>
+          <button>Logout</button>
+      </div>
+        
+
+
+    <!---End Kontent--->
+
+</body>
+</html>
